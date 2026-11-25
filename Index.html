@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="परीक्षा साथी - राजस्थान की सरकारी परीक्षाओं की मुफ्त तैयारी, नोट्स और अभ्यास प्रश्न">
+<title>परीक्षा साथी | Rajasthan Govt Exam Preparation</title>
+<style>
+:root{--navy:#14213d;--blue:#2457c5;--blue2:#3974e8;--orange:#f4a51c;--bg:#f4f7fc;--ink:#182238;--muted:#64748b;--line:#e3e9f3;--green:#13834d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans Devanagari",sans-serif}a{color:inherit;text-decoration:none}
+header{background:linear-gradient(125deg,#12213f,#214da8 70%,#3974e8);color:#fff}.top{max-width:1160px;margin:auto;padding:17px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}.logo{font-size:1.45rem;font-weight:850;letter-spacing:.1px}.logo b{color:#ffc65c}.nav{display:flex;gap:19px;flex-wrap:wrap}.nav a{font-size:.92rem;color:#e7edff}.nav a:hover{color:#ffc65c}
+.hero{max-width:1160px;margin:auto;padding:45px 22px 76px;display:grid;grid-template-columns:1.4fr .8fr;gap:30px;align-items:center}.eyebrow{display:inline-block;border:1px solid #ffffff50;border-radius:30px;padding:6px 12px;font-size:.82rem;color:#eaf0ff}.hero h1{font-size:clamp(2.1rem,5vw,3.6rem);line-height:1.15;margin:16px 0}.hero p{max-width:680px;color:#dce6ff;line-height:1.75;font-size:1.05rem}.hero-card{background:#ffffff12;border:1px solid #ffffff35;border-radius:20px;padding:22px;backdrop-filter:blur(5px)}.hero-card h3{margin:0 0 12px}.hero-card div{padding:10px 0;border-bottom:1px solid #ffffff2b;color:#e9efff}.hero-card div:last-child{border:0}.search{display:flex;gap:8px;margin-top:22px;max-width:620px}.search input{flex:1;min-width:0;border:0;border-radius:11px;padding:14px 15px;font-size:1rem}.btn{border:0;border-radius:10px;padding:12px 17px;font-weight:750;cursor:pointer}.orange{background:var(--orange);color:#202b40}.blue{background:var(--blue);color:white}.light{background:white;color:var(--navy)}
+main{max-width:1160px;margin:-27px auto 55px;padding:0 22px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.stat,.panel,.exam,.resource,.notice{background:#fff;border:1px solid var(--line);border-radius:15px;padding:17px;box-shadow:0 5px 18px #17203308}.stat strong{display:block;font-size:1.45rem;color:var(--blue)}.stat span,.muted{color:var(--muted);font-size:.88rem}
+section{margin-top:35px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin-bottom:15px}h2{font-size:1.55rem;margin:0}.sub{color:var(--muted);margin-top:4px;font-size:.91rem}.chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 17px}.chip{border:1px solid var(--line);background:white;padding:8px 13px;border-radius:30px;cursor:pointer;color:#42516a}.chip.active{background:#eaf0ff;border-color:#b8cbff;color:#214fb5;font-weight:750}
+.exam-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.exam{transition:.15s}.exam:hover{transform:translateY(-2px);box-shadow:0 9px 24px #17203312}.exam .emoji{font-size:1.5rem}.exam h3{margin:9px 0 5px}.exam p{color:var(--muted);font-size:.9rem;line-height:1.55;min-height:43px}.exam small{color:#2457c5;font-weight:700}.exam button{margin-top:12px;background:#edf2ff;color:#214fb5;border:0;border-radius:9px;padding:9px 12px;font-weight:700;cursor:pointer}
+.two{display:grid;grid-template-columns:1.2fr .8fr;gap:15px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.tab{background:#f1f5fb;border:0;border-radius:8px;padding:9px 12px;cursor:pointer}.tab.active{background:#dfe9ff;color:#214fb5;font-weight:750}.question{font-size:1.08rem;font-weight:750;line-height:1.6;margin:14px 0}.options{display:grid;gap:9px}.option{background:white;border:1px solid var(--line);padding:12px;border-radius:10px;text-align:left;cursor:pointer}.option:disabled{cursor:default}.option.correct{border-color:#13834d;background:#edfff5}.option.wrong{border-color:#d97706;background:#fff8e8}.feedback{min-height:28px;margin:12px 0;font-weight:700}.score{font-size:2.2rem;color:var(--blue);font-weight:850}.resource-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.resource h3{margin:7px 0}.resource p{color:var(--muted);line-height:1.5;font-size:.9rem}.resource button{border:0;background:#edf2ff;color:#214fb5;border-radius:8px;padding:9px 12px;font-weight:700;cursor:pointer}.bullet{padding-left:20px;line-height:2.05;color:#475569}.notice{background:#fff8e8;border-color:#f8dfaa;color:#70521b;line-height:1.6}
+footer{background:var(--navy);color:#dce6ff;padding:30px 22px;text-align:center}footer p{margin:7px 0;color:#aebcda;font-size:.88rem}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:35px}.hero-card{display:none}.exam-grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.two{grid-template-columns:1fr}.resource-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.top{align-items:flex-start}.nav{gap:12px}.nav a{font-size:.84rem}.hero{padding-bottom:60px}.search{flex-direction:column}.search .btn{width:100%}.exam-grid,.resource-grid{grid-template-columns:1fr}.stats{gap:8px}.stat{padding:13px}.stat strong{font-size:1.25rem}}
+
+.admin-wrap{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px;margin:10px 0}.field label{font-weight:700;font-size:.9rem}.field input,.field select,.field textarea{width:100%;border:1px solid var(--line);border-radius:9px;padding:11px;font:inherit;background:#fff}.field textarea{min-height:75px;resize:vertical}.admin-list{max-height:390px;overflow:auto}.admin-row{border-bottom:1px solid var(--line);padding:10px 0;display:flex;justify-content:space-between;gap:10px;align-items:center}.admin-row button{border:0;border-radius:7px;padding:7px 9px;cursor:pointer}.danger{background:#fff0f0;color:#b42318}.mini{background:#edf2ff;color:#214fb5}.admin-status{font-weight:700;min-height:24px}.quiz-tools{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:8px 0}.quiz-tools select{padding:9px;border:1px solid var(--line);border-radius:8px;background:white}.timer{font-weight:800;color:#b45309}.hidden{display:none!important}
+@media(max-width:800px){.admin-wrap{grid-template-columns:1fr}}
+
+</style></head>
+<body>
+<header>
+ <div class="top"><a class="logo" href="#">परीक्षा <b>साथी</b></a><nav class="nav"><a href="#exams">परीक्षाएँ / Exams</a><a href="#practice">MCQ Practice</a><a href="#resources">Study Material</a><a href="#plan">Study Plan</a><a href="#admin">Admin Panel</a></nav></div>
+ <div class="hero">
+  <div><span class="eyebrow">100% FREE · हिंदी + English</span><h1>राजस्थान सरकारी परीक्षा की तैयारी, अब एक ही जगह।</h1><p>REET से RAS, Patwari से Police और CET तक — अपनी तैयारी को मजबूत करें। अभ्यास प्रश्न, विषयवार सामग्री और उपयोगी स्टडी प्लान एक ही प्लेटफॉर्म पर।</p>
+   <div class="search"><input id="examSearch" placeholder="परीक्षा खोजें... जैसे REET, Patwari, RAS" aria-label="परीक्षा खोजें"><button class="btn orange" onclick="searchExams()">Search Exams</button></div>
+  </div>
+  <div class="hero-card"><h3>आज की तैयारी / Today's Focus</h3><div>📘 राजस्थान सामान्य ज्ञान</div><div>🧠 20 MCQ का अभ्यास</div><div>📝 पिछले टॉपिक का रिवीजन</div><div>🎯 कमजोर विषयों पर ध्यान</div></div>
+ </div>
+</header>
+<main>
+ <div class="stats"><div class="stat"><strong>100%</strong><span>मुफ्त सामग्री / Free</span></div><div class="stat"><strong>10+</strong><span>परीक्षा श्रेणियाँ</span></div><div class="stat"><strong>Hindi + EN</strong><span>द्विभाषी इंटरफेस</span></div><div class="stat"><strong>Daily</strong><span>नियमित अभ्यास</span></div></div>
+ <section id="exams"><div class="section-head"><div><h2>सभी प्रमुख राजस्थान परीक्षाएँ</h2><div class="sub">All major Rajasthan government exam categories</div></div><span class="muted" id="resultCount">12 परीक्षाएँ</span></div>
+ <div class="chips" id="filters"><button class="chip active" data-cat="all">सभी</button><button class="chip" data-cat="teacher">शिक्षक भर्ती</button><button class="chip" data-cat="rssb">RSSB / कर्मचारी चयन</button><button class="chip" data-cat="rpsc">RPSC</button><button class="chip" data-cat="police">पुलिस</button><button class="chip" data-cat="health">मेडिकल</button></div>
+ <div class="exam-grid" id="examGrid"></div></section>
+ <section id="practice"><div class="section-head"><div><h2>फ्री MCQ अभ्यास</h2><div class="sub">Free practice quiz · नमूना प्रश्न</div></div><span class="muted">तुरंत उत्तर जाँचें</span></div>
+  <div class="two"><div class="panel"><div class="quiz-tools"><label for="quizCategory" class="muted">विषय / Subject:</label><select id="quizCategory" onchange="changeCategory(this.value)"><option value="all">सभी प्रश्न / All</option><option value="gk">राजस्थान GK</option><option value="exam">Exam Basics</option></select><span class="timer" id="timer">समय: --:--</span></div><div class="muted" id="qCount">प्रश्न 1 / 6</div><div class="tabs"><button class="tab active" onclick="setQuiz('gk',this)">राजस्थान GK</button><button class="tab" onclick="setQuiz('exam',this)">Exam Basics</button></div><div class="question" id="question"></div><div class="options" id="options"></div><div class="feedback" id="feedback" aria-live="polite"></div><button class="btn blue" id="next" onclick="nextQuestion()">अगला प्रश्न / Next</button></div>
+  <aside class="panel"><h3 style="margin-top:0">आपका स्कोर / Your Score</h3><div class="score" id="score">0 / 0</div><p class="muted">सही उत्तर देने पर स्कोर बढ़ेगा। टेस्ट पूरा होने पर परिणाम दिखेगा।</p><button class="btn" style="background:#edf2ff;color:#214fb5" onclick="restart()">टेस्ट दोबारा करें / Restart</button><hr style="border:0;border-top:1px solid var(--line);margin:20px 0"><b>तैयारी टिप</b><p class="muted">गलत हुए प्रश्नों को नोट करें और सप्ताह के अंत में दोबारा हल करें।</p></aside></div>
+ </section>
+ <section id="resources"><div class="section-head"><div><h2>Study Material & Resources</h2><div class="sub">अभी उपलब्ध सेक्शन — सामग्री चरणबद्ध तरीके से जोड़ी जाएगी</div></div></div>
+ <div class="resource-grid"><div class="resource">📚<h3>राजस्थान GK Notes</h3><p>इतिहास, भूगोल, कला-संस्कृति और अर्थव्यवस्था।</p><button onclick="resourceInfo('राजस्थान GK Notes')">सेक्शन देखें</button></div><div class="resource">📰<h3>Current Affairs</h3><p>राजस्थान और राष्ट्रीय घटनाओं के लिए करंट अफेयर्स सेक्शन।</p><button onclick="resourceInfo('Current Affairs')">सेक्शन देखें</button></div><div class="resource">📄<h3>Previous Year Papers</h3><p>पुराने प्रश्नपत्र और उत्तर कुंजी के लिए संग्रह।</p><button onclick="resourceInfo('Previous Year Papers')">सेक्शन देखें</button></div><div class="resource">🧩<h3>Subject-wise MCQ</h3><p>विषय और टॉपिक के अनुसार अभ्यास प्रश्न।</p><button onclick="resourceInfo('Subject-wise MCQ')">सेक्शन देखें</button></div><div class="resource">📋<h3>Syllabus & Pattern</h3><p>परीक्षा का पाठ्यक्रम और परीक्षा पैटर्न।</p><button onclick="resourceInfo('Syllabus & Pattern')">सेक्शन देखें</button></div><div class="resource">🏆<h3>Mock Test</h3><p>समयबद्ध मॉक टेस्ट और प्रदर्शन विश्लेषण।</p><button onclick="document.querySelector('#practice').scrollIntoView()">टेस्ट दें</button></div></div>
+ </section>
+ <section id="plan"><div class="section-head"><div><h2>Daily Study Plan</h2><div class="sub">एक उदाहरण रूटीन — अपने समय के अनुसार बदलें</div></div></div><div class="panel"><ul class="bullet"><li><b>सुबह / Morning:</b> 2 घंटे — नया टॉपिक और नोट्स</li><li><b>दोपहर / Afternoon:</b> 1 घंटा — राजस्थान GK और करंट अफेयर्स</li><li><b>शाम / Evening:</b> 1 घंटा — MCQ और पुराने प्रश्नपत्र</li><li><b>रात / Night:</b> 30 मिनट — दिनभर का रिवीजन</li></ul></div></section>
+
+ <section id="admin"><div class="section-head"><div><h2>Admin Panel</h2><div class="sub">प्रश्न जोड़ें, संपादित करें और हटाएँ — विद्यार्थी लॉगिन नहीं है</div></div><span class="muted">Demo admin access</span></div>
+  <div class="panel" id="adminLogin">
+   <h3 style="margin-top:0">Admin Access</h3>
+   <p class="muted">डेमो पासवर्ड: <b>admin123</b> (इसे असली वेबसाइट पर सुरक्षित सर्वर लॉगिन से बदलना होगा)।</p>
+   <div class="field"><label for="adminPass">पासवर्ड / Password</label><input id="adminPass" type="password" placeholder="Admin password"></div>
+   <button class="btn blue" onclick="adminUnlock()">Admin Panel खोलें</button>
+   <div class="admin-status" id="loginStatus" aria-live="polite"></div>
+  </div>
+  <div id="adminArea" class="hidden">
+   <div class="admin-wrap">
+    <div class="panel">
+     <h3 style="margin-top:0">MCQ जोड़ें / Edit MCQ</h3>
+     <input type="hidden" id="editId">
+     <div class="field"><label for="newCategory">विषय / Category</label><select id="newCategory"><option value="gk">राजस्थान GK</option><option value="exam">Exam Basics</option><option value="history">राजस्थान इतिहास</option><option value="geography">राजस्थान भूगोल</option><option value="culture">कला एवं संस्कृति</option><option value="science">विज्ञान</option><option value="reasoning">रीजनिंग</option><option value="math">गणित</option></select></div>
+     <div class="field"><label for="newQuestion">प्रश्न / Question</label><textarea id="newQuestion" placeholder="प्रश्न लिखें"></textarea></div>
+     <div class="field"><label>चार विकल्प / Four options</label><input id="opt0" placeholder="विकल्प A"><input id="opt1" placeholder="विकल्प B"><input id="opt2" placeholder="विकल्प C"><input id="opt3" placeholder="विकल्प D"></div>
+     <div class="field"><label for="correctOption">सही उत्तर</label><select id="correctOption"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+     <div class="field"><label for="explanation">व्याख्या / Explanation</label><textarea id="explanation" placeholder="उत्तर की व्याख्या लिखें"></textarea></div>
+     <button class="btn blue" onclick="saveQuestion()">प्रश्न सेव करें / Save MCQ</button>
+     <button class="btn" style="background:#edf2ff;color:#214fb5" onclick="clearEditor()">Clear</button>
+     <div class="admin-status" id="saveStatus" aria-live="polite"></div>
+    </div>
+    <div class="panel">
+     <h3 style="margin-top:0">प्रश्न बैंक / Question Bank</h3>
+     <div class="muted" id="adminCount"></div>
+     <div class="admin-list" id="adminList"></div>
+     <button class="btn" style="background:#fff0f0;color:#b42318;margin-top:12px" onclick="adminLock()">Admin से बाहर निकलें</button>
+    </div>
+   </div>
+  </div>
+ </section>
+
+ <section><div class="notice"><b>महत्वपूर्ण सूचना:</b> यह वेबसाइट का शुरुआती फ्रंट-एंड संस्करण है। इसमें फिलहाल डेमो प्रश्न और सेक्शन दिए गए हैं। परीक्षा की तारीख, सिलेबस, भर्ती नोटिफिकेशन, रिजल्ट और उत्तर कुंजी प्रकाशित करने से पहले संबंधित आधिकारिक वेबसाइट से सत्यापन जरूरी है। अभी लॉगिन, सर्वर, लाइव अपडेट और एडमिन पैनल जुड़े हुए नहीं हैं।</div></section>
+</main>
+<footer><b>परीक्षा साथी</b><p>Rajasthan Government Exam Preparation · हिंदी + English · 100% Free</p><p>मेहनत आपकी, साथ हमारा।</p></footer>
+<script>
+const exams=[
+ {n:"REET / शिक्षक पात्रता",e:"REET",c:"teacher",i:"🎓",d:"शिक्षक पात्रता परीक्षा की तैयारी और बाल विकास, भाषा, गणित व EVS अभ्यास।"},
+ {n:"3rd Grade Teacher",e:"Grade III",c:"teacher",i:"📚",d:"प्राथमिक और उच्च प्राथमिक शिक्षक भर्ती के लिए विषयवार तैयारी।"},
+ {n:"2nd Grade Teacher",e:"Senior Teacher",c:"teacher",i:"🧑‍🏫",d:"वरिष्ठ अध्यापक भर्ती और विषय-विशेष अभ्यास।"},
+ {n:"1st Grade / School Lecturer",e:"School Lecturer",c:"teacher",i:"🏫",d:"स्कूल व्याख्याता भर्ती के लिए विषय आधारित तैयारी।"},
+ {n:"RAS / राज्य सेवा",e:"RPSC",c:"rpsc",i:"🏛️",d:"प्रारंभिक और मुख्य परीक्षा के लिए सामान्य अध्ययन व राजस्थान विशेष।"},
+ {n:"RPSC अन्य परीक्षाएँ",e:"RPSC Exams",c:"rpsc",i:"📑",d:"विभिन्न RPSC भर्ती परीक्षाओं के लिए सामान्य तैयारी सेक्शन।"},
+ {n:"Patwari",e:"RSSB",c:"rssb",i:"🗺️",d:"राजस्व, राजस्थान GK, गणित, रीजनिंग और कंप्यूटर।"},
+ {n:"LDC / Clerk",e:"RSSB",c:"rssb",i:"💻",d:"लिपिक भर्ती के लिए हिंदी, अंग्रेजी, कंप्यूटर और सामान्य ज्ञान।"},
+ {n:"VDO / ग्राम विकास अधिकारी",e:"RSSB",c:"rssb",i:"🌾",d:"ग्रामीण विकास, पंचायती राज और सामान्य अध्ययन।"},
+ {n:"CET (12th / Graduation)",e:"Common Eligibility Test",c:"rssb",i:"📝",d:"समान पात्रता परीक्षा के लिए सामान्य विषयों का अभ्यास।"},
+ {n:"Police Constable / SI",e:"Police",c:"police",i:"🛡️",d:"पुलिस भर्ती की लिखित परीक्षा के लिए GK, रीजनिंग और कानून संबंधी मूल बातें।"},
+ {n:"ANM / GNM / Medical",e:"Health",c:"health",i:"🩺",d:"स्वास्थ्य विभाग की विभिन्न भर्तियों के लिए विषयवार तैयारी।"}
+];
+let activeFilter='all';
+function renderExams(list=exams){let g=document.getElementById('examGrid');g.innerHTML='';list.forEach(x=>{let a=document.createElement('article');a.className='exam';a.innerHTML=`<div class="emoji">${x.i}</div><h3>${x.n}</h3><small>${x.e}</small><p>${x.d}</p><button onclick="chooseExam('${x.n.replace(/'/g,"\\'")}')">तैयारी देखें →</button>`;g.appendChild(a)});document.getElementById('resultCount').textContent=list.length+' परीक्षाएँ';}
+document.querySelectorAll('.chip').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));b.classList.add('active');activeFilter=b.dataset.cat;renderExams(activeFilter==='all'?exams:exams.filter(x=>x.c===activeFilter));}));
+function searchExams(){let q=document.getElementById('examSearch').value.toLowerCase().trim();let l=exams.filter(x=>(x.n+' '+x.e+' '+x.d).toLowerCase().includes(q));document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));document.querySelector('[data-cat="all"]').classList.add('active');renderExams(l);document.getElementById('exams').scrollIntoView();}
+document.getElementById('examSearch').addEventListener('keydown',e=>{if(e.key==='Enter')searchExams()});
+function chooseExam(n){alert(n+' के लिए तैयारी सेक्शन चुना गया है। इस सेक्शन में सिलेबस, नोट्स और प्रश्न बैंक आगे जोड़े जा सकते हैं।');}
+function resourceInfo(n){alert(n+' सेक्शन वेबसाइट के अगले चरण में वास्तविक और सत्यापित सामग्री के साथ जोड़ा जाएगा।');}
+
+const baseBank={
+gk:[
+{q:"राजस्थान दिवस कब मनाया जाता है?",o:["26 जनवरी","30 मार्च","15 अगस्त","1 नवंबर"],a:1,e:"राजस्थान दिवस 30 मार्च को मनाया जाता है।"},
+{q:"थार मरुस्थल राजस्थान के मुख्यतः किस भाग में स्थित है?",o:["पूर्वी","पश्चिमी","दक्षिणी","दक्षिण-पूर्वी"],a:1,e:"थार मरुस्थल राजस्थान के पश्चिमी भाग में फैला है।"},
+{q:"केवलादेव राष्ट्रीय उद्यान किस जिले में स्थित है?",o:["भरतपुर","अलवर","कोटा","जैसलमेर"],a:0,e:"केवलादेव राष्ट्रीय उद्यान भरतपुर में स्थित है।"},
+{q:"राजस्थान की सबसे बड़ी खारे पानी की झील कौन-सी है?",o:["पिछोला","आनासागर","सांभर","फतेहसागर"],a:2,e:"सांभर झील राजस्थान की प्रमुख खारे पानी की झील है।"},
+{q:"हवा महल कहाँ स्थित है?",o:["उदयपुर","जयपुर","जोधपुर","बीकानेर"],a:1,e:"हवा महल जयपुर में स्थित है।"},
+{q:"राजस्थान का राज्य वृक्ष कौन-सा है?",o:["नीम","खेजड़ी","पीपल","रोहिड़ा"],a:1,e:"खेजड़ी राजस्थान का राज्य वृक्ष है।"}
+],
+exam:[
+{q:"REET का पूरा नाम क्या है?",o:["Rajasthan Eligibility Examination for Teachers","Regional Education Entrance Test","Rajasthan Education Eligibility Trial","इनमें से कोई नहीं"],a:0,e:"REET का पूरा नाम Rajasthan Eligibility Examination for Teachers है।"},
+{q:"CDP का संबंध किससे है?",o:["Child Development and Pedagogy","Computer Data Processing","Central District Programme","इनमें से कोई नहीं"],a:0,e:"CDP का अर्थ Child Development and Pedagogy है।"},
+{q:"मॉक टेस्ट का मुख्य उद्देश्य क्या है?",o:["केवल अंक बढ़ाना","समय प्रबंधन व अभ्यास","सिलेबस हटाना","नोट्स कम करना"],a:1,e:"मॉक टेस्ट से समय प्रबंधन, गति और कमजोर क्षेत्रों की पहचान होती है।"},
+{q:"पढ़े हुए विषय को लंबे समय तक याद रखने में क्या मदद करता है?",o:["नियमित रिवीजन","एक बार पढ़ना","केवल अनुमान","पढ़ाई टालना"],a:0,e:"नियमित अंतराल पर रिवीजन याददाश्त मजबूत करता है।"}
+]};
+const extraCategories={history:"राजस्थान इतिहास",geography:"राजस्थान भूगोल",culture:"कला एवं संस्कृति",science:"विज्ञान",reasoning:"रीजनिंग",math:"गणित"};
+let customQuestions=[];
+try{customQuestions=JSON.parse(localStorage.getItem('parikshaSaathiMCQ')||'[]')}catch(e){customQuestions=[]}
+let mode='all',idx=0,score=0,answered=false,finished=false,timerSeconds=0,timerHandle=null;
+function allQuestions(){let base=[...baseBank.gk.map(x=>({...x,cat:'gk'})),...baseBank.exam.map(x=>({...x,cat:'exam'}))];return base.concat(customQuestions.map(x=>({...x})));}
+function currentQuestions(){let all=allQuestions();return mode==='all'?all:all.filter(q=>q.cat===mode);}
+function changeCategory(m){mode=m;idx=0;score=0;finished=false;renderQ();}
+function setQuiz(m,el){document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));el.classList.add('active');document.getElementById('quizCategory').value=m;changeCategory(m);}
+function stopTimer(){if(timerHandle){clearInterval(timerHandle);timerHandle=null}}
+function startTimer(){stopTimer();timerSeconds=0;document.getElementById('timer').textContent='समय: 00:00';timerHandle=setInterval(()=>{timerSeconds++;let mm=String(Math.floor(timerSeconds/60)).padStart(2,'0'),ss=String(timerSeconds%60).padStart(2,'0');document.getElementById('timer').textContent='समय: '+mm+':'+ss},1000)}
+function renderQ(){let qs=currentQuestions();answered=false;finished=false;document.getElementById('next').style.display='inline-block';if(!qs.length){document.getElementById('qCount').textContent='अभी प्रश्न उपलब्ध नहीं';document.getElementById('question').textContent='इस श्रेणी में अभी प्रश्न नहीं हैं। Admin Panel से प्रश्न जोड़ें।';document.getElementById('options').innerHTML='';document.getElementById('feedback').textContent='';document.getElementById('score').textContent='0 / 0';stopTimer();return}
+if(idx>=qs.length)idx=0;let q=qs[idx];document.getElementById('qCount').textContent=`प्रश्न ${idx+1} / ${qs.length}`;document.getElementById('question').textContent=q.q;document.getElementById('feedback').textContent='';document.getElementById('score').textContent=`${score} / ${idx}`;document.getElementById('next').textContent=idx===qs.length-1?'परिणाम देखें / Finish':'अगला प्रश्न / Next';let box=document.getElementById('options');box.innerHTML='';q.o.forEach((v,i)=>{let b=document.createElement('button');b.className='option';b.textContent=String.fromCharCode(65+i)+'. '+v;b.onclick=()=>answer(i);box.appendChild(b)});if(idx===0&&timerSeconds===0)startTimer();}
+function answer(i){if(answered||finished)return;answered=true;let q=currentQuestions()[idx];document.querySelectorAll('.option').forEach((b,j)=>{b.disabled=true;if(j===q.a)b.classList.add('correct');if(j===i&&i!==q.a)b.classList.add('wrong')});if(i===q.a){score++;document.getElementById('feedback').textContent='सही उत्तर! '+(q.e||'');document.getElementById('feedback').style.color='var(--green)'}else{document.getElementById('feedback').textContent='सही उत्तर: '+q.o[q.a]+'. '+(q.e||'');document.getElementById('feedback').style.color='#b45309'}document.getElementById('score').textContent=`${score} / ${idx+1}`;}
+function nextQuestion(){let qs=currentQuestions();if(!answered){document.getElementById('feedback').textContent='पहले एक विकल्प चुनें।';document.getElementById('feedback').style.color='#b45309';return}if(idx<qs.length-1){idx++;renderQ()}else{finished=true;stopTimer();document.getElementById('question').textContent=`टेस्ट पूरा हुआ! आपका स्कोर ${score} / ${qs.length} है।`;document.getElementById('options').innerHTML='';document.getElementById('feedback').textContent='कुल समय: '+document.getElementById('timer').textContent.replace('समय: ','')+' · Restart दबाकर फिर अभ्यास करें।';document.getElementById('next').style.display='none';document.getElementById('qCount').textContent='परिणाम / Result';}}
+function restart(){idx=0;score=0;timerSeconds=0;stopTimer();renderQ();}
+function adminUnlock(){if(document.getElementById('adminPass').value==='admin123'){document.getElementById('adminLogin').classList.add('hidden');document.getElementById('adminArea').classList.remove('hidden');document.getElementById('loginStatus').textContent='';renderAdmin()}else{document.getElementById('loginStatus').textContent='गलत पासवर्ड।';document.getElementById('loginStatus').style.color='#b42318'}}
+function adminLock(){document.getElementById('adminArea').classList.add('hidden');document.getElementById('adminLogin').classList.remove('hidden');document.getElementById('adminPass').value=''}
+function saveQuestion(){let q=document.getElementById('newQuestion').value.trim(),opts=[0,1,2,3].map(i=>document.getElementById('opt'+i).value.trim()),cat=document.getElementById('newCategory').value,ans=Number(document.getElementById('correctOption').value),ex=document.getElementById('explanation').value.trim(),id=document.getElementById('editId').value;if(!q||opts.some(x=>!x)){document.getElementById('saveStatus').textContent='प्रश्न और चारों विकल्प भरना जरूरी है।';document.getElementById('saveStatus').style.color='#b42318';return}let item={id:id||('q'+Date.now()),cat,q,o:opts,a:ans,e:ex};if(id){let at=customQuestions.findIndex(x=>x.id===id);if(at>=0)customQuestions[at]=item}else customQuestions.push(item);localStorage.setItem('parikshaSaathiMCQ',JSON.stringify(customQuestions));document.getElementById('saveStatus').textContent='प्रश्न सेव हो गया!';document.getElementById('saveStatus').style.color='var(--green)';clearEditor(false);renderAdmin();if(mode==='all'||mode===cat)renderQ();}
+function clearEditor(clearStatus=true){['editId','newQuestion','opt0','opt1','opt2','opt3','explanation'].forEach(id=>document.getElementById(id).value='');document.getElementById('newCategory').value='gk';document.getElementById('correctOption').value='0';if(clearStatus)document.getElementById('saveStatus').textContent=''}
+function renderAdmin(){document.getElementById('adminCount').textContent=customQuestions.length+' custom questions · डेमो प्रश्न अलग से उपलब्ध हैं';let list=document.getElementById('adminList');list.innerHTML='';if(!customQuestions.length){list.innerHTML='<p class="muted">अभी कोई custom प्रश्न नहीं। ऊपर से पहला MCQ जोड़ें।</p>';return}customQuestions.forEach(x=>{let row=document.createElement('div');row.className='admin-row';let title=document.createElement('div');title.textContent=x.q;title.style.flex='1';let actions=document.createElement('div');let edit=document.createElement('button');edit.className='mini';edit.textContent='Edit';edit.onclick=()=>editQuestion(x.id);let del=document.createElement('button');del.className='danger';del.textContent='Delete';del.onclick=()=>deleteQuestion(x.id);actions.append(edit,del);row.append(title,actions);list.append(row)})}
+function editQuestion(id){let x=customQuestions.find(q=>q.id===id);if(!x)return;document.getElementById('editId').value=x.id;document.getElementById('newCategory').value=x.cat;document.getElementById('newQuestion').value=x.q;x.o.forEach((v,i)=>document.getElementById('opt'+i).value=v);document.getElementById('correctOption').value=String(x.a);document.getElementById('explanation').value=x.e||'';document.getElementById('saveStatus').textContent='প্রশ্ন edit mode-এ আছে।';document.getElementById('admin').scrollIntoView({behavior:'smooth'})}
+function deleteQuestion(id){if(!confirm('এই প্রশ্নটি মুছना चाहते हैं?'))return;customQuestions=customQuestions.filter(x=>x.id!==id);localStorage.setItem('parikshaSaathiMCQ',JSON.stringify(customQuestions));renderAdmin();renderQ();}
+renderExams();renderQ();
+
+</script></body></html>
